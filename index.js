@@ -1,9 +1,25 @@
 var picker = require('./scripts/picker');
-var add = require('./scripts/add');
+var place  = require('./scripts/place');
 
-// Pick a place, run: node index or node index pick
-if(!process.argv[2] || process.argv[2] === "pick") picker.pick();
+// Arguments
+var command = (process.argv[2]) ? (process.argv[2]).toLowerCase() : '';
+var pl      = process.argv[3];
 
-// Add a place, run: node index add "Place Name"
-if(process.argv[2] === "add") add.new(process.argv[3]);
+switch (command) {
+  case 'pick':
+    picker.pick();
+    break;
+  case 'add':
+    place.new(pl);
+    break;
+  case 'list':
+    place.list();
+    break;
+  case 'remove':
+    place.remove(pl);
+    break;
+  default:
+    picker.pick();
+    break;
+}
 
