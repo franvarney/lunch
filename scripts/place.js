@@ -42,6 +42,7 @@ module.exports = {
       if (err) throw err;
       var object = JSON.parse(data);
       var placesArray = [];
+      var objectLength = object.places.length;
       object.places.forEach(function (places, index) {
         if (place !== places.place && index + 1 === object.places.length) {
           return console.log(place + ' doesn\'t exist!');
@@ -50,7 +51,7 @@ module.exports = {
         if (place === places.place) {
           object.places.splice(index, 1);
         }
-        if (index + 1 === object.places.length) {
+        if (index + 1 === objectLength) {
           fs.writeFile(dataPath, JSON.stringify(object), function(err) {
             if (err) throw err;
             return console.log(place + ' was removed!');
