@@ -20,7 +20,6 @@ module.exports = {
         if (lastPlace === places.place) {
           placesArray.splice(index, 1);
         }
-        console.log(placesArray);
         if (index + 1 === object.places.length) {
           var result = random(placesArray).place;
           fs.writeFileSync(lastPath, result);
