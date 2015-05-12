@@ -4,15 +4,11 @@
   "description": "Modulus lunch picker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Fran Varney <fran@modulus.io>",
   "license": "MIT",
   "dependencies": {
-    "es5-shim": "^4.1.1",
     "lodash": "^3.8.0"
-  },
-  "scripts" : {
-    "start": "node index.js"
   }
 }
