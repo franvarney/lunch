@@ -1,4 +1,4 @@
-# modulus-lunch
+# lunch-picker
 
 ## Installation
 ```

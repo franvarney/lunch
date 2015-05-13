@@ -1,7 +1,7 @@
 {
-  "name": "modulus-lunch",
-  "version": "1.0.0",
-  "description": "Modulus lunch picker",
+  "name": "lunch-picker",
+  "version": "1.0.1",
+  "description": "Lunch Picker",
   "bin": {
     "lunch": "bin/lunch"
   },
