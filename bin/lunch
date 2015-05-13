@@ -1,12 +1,14 @@
-var picker = require('./scripts/picker');
-var place  = require('./scripts/place');
+#!/usr/bin/env node
+
+var picker = require('../scripts/picker');
+var place  = require('../scripts/place');
 
 // Arguments
-var command = (process.argv[2]) ? (process.argv[2]).toLowerCase() : '';
+var command = process.argv[2] ? process.argv[2].toLowerCase() : '';
 var pl      = process.argv[3];
 
 switch (command) {
-  case 'pick':
+  case 'gimme':
     picker.pick();
     break;
   case 'add':
@@ -22,4 +24,3 @@ switch (command) {
     picker.pick();
     break;
 }
-

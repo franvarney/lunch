@@ -2,9 +2,8 @@
   "name": "modulus-lunch",
   "version": "1.0.0",
   "description": "Modulus lunch picker",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
+  "bin": {
+    "lunch": "bin/lunch"
   },
   "author": "Fran Varney <fran@modulus.io>",
   "license": "MIT",
