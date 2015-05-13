@@ -1,7 +1,7 @@
 {
-  "name": "lunch-picker",
-  "version": "1.0.1",
-  "description": "Lunch Picker",
+  "name": "lunch",
+  "version": "1.0.0",
+  "description": "Random lunch generator",
   "bin": {
     "lunch": "bin/lunch"
   },

@@ -1,8 +1,8 @@
-# lunch-picker
+# lunch
 
 ## Installation
 ```
-npm install -g modulus-lunch
+npm install -g lunch
 ```
 
 ## Usage
