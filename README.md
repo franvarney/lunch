@@ -10,10 +10,10 @@ npm install -g lunch
 Usage: lunch <command>
 
 Options:
-         gimme   displays a random place to eat
-         list    lists all places that have been added
-         add     adds a place to eat
-         remove  removes a place
+         gimme               displays a random place to eat
+         list                lists all places that have been added
+         add "Some Place"    adds a place to eat
+         remove "Some Place" removes a place
 ```
 
 ## License
