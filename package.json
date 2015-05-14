@@ -1,6 +1,6 @@
 {
   "name": "lunch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Random lunch generator",
   "bin": {
     "lunch": "bin/lunch"
