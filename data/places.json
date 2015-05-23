@@ -1,1 +1,22 @@
-{"places":[{"place":"Burger King"},{"place":"The Eagle"},{"place":"Camp Washington Chili"}]}
+{
+  "places": [
+    {
+      "place": "Burger King"
+    },
+    {
+      "place": "The Eagle"
+    },
+    {
+      "place": "Taste of Belgium"
+    },
+    {
+      "place": "Mama Lo Hizo"
+    },
+    {
+      "place": "Velvet Smoke"
+    },
+    {
+      "place": "Camp Washington Chili"
+    }
+  ]
+}
